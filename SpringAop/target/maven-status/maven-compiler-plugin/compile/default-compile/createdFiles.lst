@@ -1,7 +1,12 @@
-com/shiyanlou/spring/aop/advice/CustomerService.class
+com/shiyanlou/spring/aop/aspectj/ICustomerBo.class
+com/shiyanlou/spring/aop/aspectj/App.class
 com/shiyanlou/spring/App.class
 com/shiyanlou/spring/aop/advice/HijackAroundMethod.class
 com/shiyanlou/spring/aop/advice/HijackThrowExceptionMethod.class
+com/shiyanlou/spring/aop/aspectj/PointcutsDefinition.class
 com/shiyanlou/spring/aop/advice/HijackAfterMethod.class
 com/shiyanlou/spring/aop/advice/HijackBeforeMethod.class
+com/shiyanlou/spring/aop/aspectj/CustomerBo.class
+com/shiyanlou/spring/aop/advice/CustomerService.class
+com/shiyanlou/spring/aop/aspectj/LoggingAspect.class
 com/shiyanlou/spring/aop/advice/App.class
