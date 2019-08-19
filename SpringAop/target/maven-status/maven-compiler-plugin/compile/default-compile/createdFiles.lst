@@ -1,3 +1,4 @@
 com/shiyanlou/spring/aop/advice/CustomerService.class
 com/shiyanlou/spring/App.class
+com/shiyanlou/spring/aop/advice/HijackBeforeMethod.class
 com/shiyanlou/spring/aop/advice/App.class
