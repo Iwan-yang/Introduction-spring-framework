@@ -1,3 +1,7 @@
 /home/project/SpringAop/src/main/java/com/shiyanlou/spring/App.java
+/home/project/SpringAop/src/main/java/com/shiyanlou/spring/aop/advice/HijackAroundMethod.java
 /home/project/SpringAop/src/main/java/com/shiyanlou/spring/aop/advice/CustomerService.java
+/home/project/SpringAop/src/main/java/com/shiyanlou/spring/aop/advice/HijackThrowExceptionMethod.java
+/home/project/SpringAop/src/main/java/com/shiyanlou/spring/aop/advice/HijackBeforeMethod.java
+/home/project/SpringAop/src/main/java/com/shiyanlou/spring/aop/advice/HijackAfterMethod.java
 /home/project/SpringAop/src/main/java/com/shiyanlou/spring/aop/advice/App.java

@@ -24,10 +24,15 @@ public class App {
 
     //before advice
     public static void main(String[] args) {
-        ApplicationContext appContext = new ClassPathXmlApplicationContext(
-                new String[] { "ApringAOPAdvice.xml" });
+        // ApplicationContext appContext = new ClassPathXmlApplicationContext(
+        //         new String[] { "ApringAOPAdvice.xml" });
 
-        CustomerService cust = (CustomerService) appContext.getBean("customerServiceProxy");
+        ApplicationContext appContext = new ClassPathXmlApplicationContext(
+                new String[] { "SpringAOPAdvice.xml" });
+        // 手动创建 Proxy
+        // CustomerService cust = (CustomerService) appContext.getBean("customerServiceProxy");
+        // 自动创建 Proxy
+        CustomerService cust = (CustomerService) appContext.getBean("customerService");
 
         System.out.println("使用Spring AOP 如下");
         System.out.println("*************************");
